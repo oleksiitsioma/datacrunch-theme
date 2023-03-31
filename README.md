@@ -25,3 +25,7 @@ Install theme using the default WordPress Installer
 ### Creating Custom post types and Taxonomies
 
 Create Portfolio posts using the default WordPress tools. Skills section is located under the Portfolio in the main WordPress Dashboard Menu. Theme colors has been set to work with WordPress Pallete. 
+
+## Links
+
+[Github Repo](https://github.com/oleksiitsioma/datacrunch-theme.git)
