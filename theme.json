@@ -1,6 +1,10 @@
 {
     "version": 2,
     "settings": {
+		"layout": {
+			"contentSize": "900px",
+			"wideSize": "1400px"
+		},
         "color": {
             "palette": [
                 { "name": "Black", "slug": "black", "color": "#222222" },

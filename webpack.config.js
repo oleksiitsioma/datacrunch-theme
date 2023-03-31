@@ -9,7 +9,6 @@ module.exports = {
     ],
     entry: {
         bundle: '/assets/src/index.js',
-        jquery: '/assets/src/js/vendor/jquery-3.6.4.min.js'
     },
     output: {
         path: path.resolve( __dirname , 'assets/dist' ),

@@ -16,7 +16,7 @@ function ___dc_register_portfolio_cpt(){
 		'hierarchical'  => false,
 		'supports'      => [ 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields' ],
         'taxonomies'    => [ 'skills' ],
-		'has_archive'   => false,
+		'has_archive'   => true,
 		'rewrite'       => true,
 		'query_var'     => true,
 	] );
