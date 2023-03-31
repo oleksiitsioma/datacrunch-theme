@@ -18,9 +18,16 @@ Other than basic WordPress templates, the theme has extra additional files and f
 
 ## Usage
 
+### Development
+
+1. Add the theme folder to *wp-content/themes/* folder of your WordPress Project.
+2. Run *npm install* to install all dependencies.
+3. Run *npm run dev* to launch the watcher and autocompiler. This will auto update your asset files.
+4. Run *npm run build* before deploying to compile minimized version of CSS and JS.
+
 ### Installation
 
-Install theme using the default WordPress Installer
+Install theme using the default WordPress Installer.
 
 ### Creating Custom post types and Taxonomies
 
