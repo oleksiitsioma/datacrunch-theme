@@ -1,0 +1,16 @@
+// SETTINGS
+
+@import './settings/styleReset';
+@import './settings/variables';
+@import './settings/grid';
+@import './settings/fonts';
+@import './settings/typography';
+
+// COMPONENTS
+
+@import './components/header';
+@import './components/postsLoop';
+@import './components/postTags';
+@import './components/recentPortfolio';
+@import './components/sidebar';
+@import './components/footer';

@@ -1,0 +1,48 @@
+// CONTAINER
+
+.container{
+
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &_fullwidth{
+        max-width: auto;
+    }
+
+}
+
+
+// COLUMN GRID
+
+.columnGrid{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 30px;
+
+    .fullwidth{
+        grid-column-start: 1;
+        grid-column-end: span 12;
+    }
+
+    &__column{
+
+        grid-column-start: auto;
+
+        @for $i from 1 through 12{
+            &_#{$i}{
+                grid-column-end: span #{$i};
+            }
+        }
+
+        &_rightAlign{
+            text-align: right;
+        }
+
+    }
+
+}

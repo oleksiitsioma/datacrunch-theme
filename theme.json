@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                { "name": "Black", "slug": "black", "color": "#222222" },
+                { "name": "White", "slug": "white", "color": "#FFFFFF" },
+                { "name": "Lapis", "slug": "lapis", "color": "#1C5D99" },
+                { "name": "Moonstone", "slug": "moonstone", "color": "1C5D99" },
+                { "name": "Powder Blue", "slug": "powderblue", "color": "#BBCDE5" }
+            ],
+            "gradients": [
+                {
+                    "slug": "lapis-to-moonstone",
+                    "gradient": "linear-gradient(150deg, rgba(28, 93, 153, 0.7), rgba(99, 159, 171, 0.7))",
+                    "name": "Lapis to Moonstone"
+                }
+            ]
+        }
+    }
+}

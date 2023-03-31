@@ -1,0 +1,26 @@
+.postTags{
+
+    padding: 10px 0;
+
+    &__item{
+
+        color: $white;
+        background-color: rgba($color: $lapis, $alpha: 0.7);
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 11px;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        @include animation-standard;
+
+        &:hover{
+            background-color: $lapis;
+        }
+
+    }
+
+}

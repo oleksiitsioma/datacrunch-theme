@@ -1,0 +1,19 @@
+.postsLoop{
+
+    &Item{
+
+        border-radius: 50px;
+        padding: 50px;        
+        text-decoration: none;
+        display: block;
+        margin-bottom: 50px;
+        @include gradient-background;
+
+        &__title{
+            text-align: left;
+            color: $white;
+        }
+
+    }
+
+}
