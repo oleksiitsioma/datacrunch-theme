@@ -16,3 +16,12 @@ Other than basic WordPress templates, the theme has extra additional files and f
 
 - Custom taxonomy "Skills" is created. Posts within the Portfolio post type can have skills assigned for them.
 
+## Usage
+
+### Installation
+
+Install theme using the default WordPress Installer
+
+### Creating Custom post types and Taxonomies
+
+Create Portfolio posts using the default WordPress tools. Skills section is located under the Portfolio in the main WordPress Dashboard Menu. Theme colors has been set to work with WordPress Pallete. 
